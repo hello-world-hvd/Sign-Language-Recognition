@@ -1,0 +1,68 @@
+body {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 2rem !important; /* Tăng kích thước chữ */
+  font-weight: 700 !important; /* Tăng độ đậm */
+  text-transform: uppercase; /* Chữ in hoa */
+  letter-spacing: 1px; /* Tăng khoảng cách giữa các chữ */
+}
+
+.mode-selection {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.mode-btn {
+  padding: 20px 40px;
+  transition: transform 0.2s;
+}
+
+.mode-btn:hover {
+  transform: translateY(-5px);
+}
+
+.video-container {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.video-container img {
+  width: 100%;
+  height: auto;
+}
+
+.recognition-result {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+  margin: 20px 0;
+}
+
+.text-container {
+  margin-top: 20px;
+}
+
+#outputText {
+  font-size: 18px;
+  min-height: 150px;
+  resize: none;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.card-header {
+  border-bottom: none;
+}
